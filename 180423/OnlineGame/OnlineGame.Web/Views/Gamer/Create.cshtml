@@ -1,0 +1,205 @@
+﻿@model BusinessLayer.Gamer
+@{
+}
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<div class="row">
+    <h2>Create Gamer</h2>
+    @*@using (Html.BeginForm())*@
+    @*@using (Html.BeginForm("Create", "Gamer"))*@
+    @*@using (Html.BeginForm("Create2", "Gamer"))*@
+    @*@using (Html.BeginForm("Create4", "Gamer"))*@
+
+    @using (Html.BeginForm("Create3", "Gamer"))
+    {
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-horizontal">
+            <div class="form-group">
+                @Html.LabelFor(model => model.Name, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.Gender, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @*@Html.EditorFor(model => model.Gender, new { htmlAttributes = new { @class = "form-control" } })*@
+                    @*@Html.DropDownList("Gender",new List<SelectListItem>
+                        {
+                            new SelectListItem{Text = "Male", Value = "Male"},
+                            new SelectListItem{Text = "Female", Value = "Female"}
+                        })*@
+                    @Html.DropDownList("Gender", new List<SelectListItem>
+                        {
+                            new SelectListItem{Text = "Male", Value = "Male"},
+                            new SelectListItem{Text = "Female", Value = "Female"}
+                        }, "Select Gender")
+                    @Html.ValidationMessageFor(model => model.Gender, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.City, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.City, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.City, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.DateOfBirth, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.DateOfBirth, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.DateOfBirth, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.TeamId, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.TeamId, new { htmlAttributes = new { @class = "form-control" } })
+                    @*@Html.ValidationMessageFor(model => model.TeamId, "", new { @class = "text-danger" })*@
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Create" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+    <div>
+        @Html.ActionLink("Back to List", "Index2")
+    </div>
+</div>
+@*
+    1.
+    1.1.
+    Select <form>....</form>
+    We are using Web Essentials extension
+    Select part of HTML text, then press Shift + Alt + W
+    it will surround those pieces of text with <div>
+    1.2.
+    // <div class="row">
+    class="row" in bootstrap means this is the container for the bootstrap 12 columns grid system
+    1.3.
+    // <div class="col-md-6">
+    1.3.1.
+    .col-lg-XX means the screen size is >= 1200px, lg means large
+    .col-md-XX means the screen size is >= 992px, means 992px to 1199px, md means medium
+    .col-sm-XX means the screen size is >= 768px, means 768px to 991px, sm means small
+    .col-xs-XX means the screen size is < 768px, xs means extra small
+    1.3.2.
+    // <div class="col-md-6">
+    The md in   class="col-md-6"  means the screen size is 992px to 1199px
+    12 columns grid system divide this screen to 12 columns,
+    The 6 in   class="col-md-6" means this div occupy 6 columns out of 12 columns grid system.
+    Therefore,
+    // <div class="col-md-6">
+    //     ...
+    // </div>
+    // <div class="col-md-6">
+    //     <h2>The Map</h2>
+    // </div>
+    It will become left half and right half when it is full screen.
+    However, when reduce screen size less than 11 columns,
+    then it will become top and bottom.
+    1.3.3.
+    If we do this
+    // <div class="col-md-6 col-xs-8">
+    //     ...
+    // </div>
+    // <div class="col-md-6 col-xs-4">
+    //     <h2>The Map</h2>
+    // </div>
+    The  .col-xs-XX   will override  .col-md-XX
+    However, we actually only need big one, .col-md-XX
+    because for small screen device like phone,
+    we want it automatically align vertically.
+    so let's only use   .col-md-XX   and delete   .col-xs-XX
+    2.
+    // <div class="form-group">
+    //    <label>Date</label>
+    //    <input class="form-control"/>
+    // </div>
+    // ...
+    // <input type="submit" value="Add" class="btn btn-success"/>
+    2.1.
+    .form-group in bootstrap normally used for group label and input.
+    2.2.
+    .form-control in bootstrap will occupy the 100% width
+    2.3.
+    .btn-success in bootstrap will become green btn
+    2.4.
+    btn-danger in bootstrap will become red btn
+    2.5.
+    btn-warning in bootstrap will become orange btn
+    2.6.
+    btn-default in bootstrap will become gray btn
+
+
+    3.
+    3.1.
+    //<input type="submit" value="Create" class="btn btn-default" />
+    It is the submit button of the form.
+    3.2.
+    //@using (Html.BeginForm())
+    //@using (Html.BeginForm("Create", "Gamer"))
+    These two using will create
+    //<form action="/Gamer/Create3" method="post" novalidate="novalidate">
+    It will run the "Gamer" controller and "Create" HttpPost action.
+    //@using (Html.BeginForm())
+    It does not specify any controller or any action.
+    Thus, it will use the default controller and default HttpPost action.
+    It is Create.cshtml in Views/Gamer folder.
+    Thus, it will run "Gamer" controller and "Create" HttpPost action
+    3.3.
+    //@using (Html.BeginForm("Create2", "Gamer"))
+    It will create
+    //<form action="/Gamer/Create2" method="post" novalidate="novalidate">
+    It will run "Gamer" controller and "Create2" HttpPost action.
+    4.
+    4.1.
+    //@Html.LabelFor(model => model.Name, new { @class = "control-label col-md-2" })
+    It will create
+    //<label class="control-label col-md-2" for="Name">Name</label>
+    4.2.
+    //@Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+    It will create
+    //<input class="form-control text-box single-line" id="Name" name="Name" type="text" value="">
+    4.3.
+    //@Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+    It will create
+    //<span class="field-validation-valid text-danger" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+    The cshtml also use the following JS
+    //<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    //<script src="~/Scripts/jquery.validate.min.js"></script>
+    //<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    Thus, the span will display the error message of Name input.
+    4.4.
+    //@Html.DropDownList("Gender",new List<SelectListItem>
+    //{
+    //    new SelectListItem{Text = "Male", Value = "Male"},
+    //    new SelectListItem{Text = "Female", Value = "Female"}
+    //})
+    It will create
+    //<select id="Gender" name="Gender">
+    //    <option value="Male">Male</option>
+    //    <option value="Female">Female</option>
+    //</select>
+    4.5.
+    //@Html.DropDownList("Gender", new List<SelectListItem>
+    //{
+    //    new SelectListItem{Text = "Male", Value = "Male"},
+    //    new SelectListItem{Text = "Female", Value = "Female"}
+    //}, "Select Gender")
+    It will create
+    //<select id="Gender" name="Gender">
+    //    <option value="">Select Gender</option>
+    //    <option value="Male">Male</option>
+    //    <option value="Female">Female</option>
+    //</select>
+    4.6.
+    //@Html.ActionLink("Back to List", "Index2")
+    It will create
+    //<a href="/Gamer/Index2">Back to List</a>
+*@
