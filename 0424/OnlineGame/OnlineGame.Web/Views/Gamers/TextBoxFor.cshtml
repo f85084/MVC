@@ -1,0 +1,30 @@
+﻿@using OnlineGame.Web.Models;
+@model Game
+@{
+    ViewBag.Title = "TextBoxFor";
+}
+<h2>TextBoxFor</h2>
+@Html.TextBoxFor(model => model.Name)
+<br />
+@Html.DropDownListFor(model => model.Teams, new SelectList(Model.Teams, "Id", "Name"), "Select Team")
+@*
+    1.
+    @Html.TextBox and @Html.DropDownList are NOT strongly typed which does not need the view Model.
+    @Html.TextBoxFor and @Html.DropDownListFor are strongly typed which need the view Model.
+    The result of produced HTML is the same,
+    but Strongly typed HTML helpers support compile time error checking.
+    So Strongly typed HTML helpers are better.
+    1.1.
+    //@Html.TextBoxFor(model => model.Name)
+    It will create the following.
+    //<input id="Name" name="Name" type="text" value="GameA">
+    1.2.
+    //@Html.DropDownListFor(model => model.Teams, new SelectList(Model.Teams, "Id", "Name"), "Select Team")
+    It will create the following.
+    //<select id="Teams" name="Teams"><option value="">Select Team</option>
+    //    <option value="1">Team1</option>
+    //    <option value="2">Team2</option>
+    //    <option value="3">Team3</option>
+    //</select>
+*@
+

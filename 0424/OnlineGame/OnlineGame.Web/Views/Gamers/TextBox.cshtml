@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "TextBox";
+}
+<h2>TextBox</h2>
+@Html.TextBox("GameName", (string)ViewBag.GameName)
+<br />
+@Html.DropDownList("GameTeams", "Select Team")
+@*
+    1.
+    //Game game = new Game("GameA");
+    //ViewBag.GameName = game.Name;
+    //ViewBag.GameTeams = new SelectList(game.Teams, "Id", "Name");
+    1.1.
+    //@Html.TextBox("GameName", (string)ViewBag.GameName)
+    It will create the following.
+    //<input id="Name" name="Name" type="text" value="GameA">
+    1.2.
+    //@Html.DropDownList("GameTeams", "Select Team")
+    It will create the following.
+    //<select id="Teams" name="Teams"><option value="">Select Team</option>
+    //    <option value="1">Team1</option>
+    //    <option value="2">Team2</option>
+    //    <option value="3">Team3</option>
+    //</select>
+*@
