@@ -193,6 +193,10 @@
     <Content Include="Views\Gamer\DetailsTwo.cshtml" />
     <Content Include="Views\Gamer\DetailsThree.cshtml" />
     <Content Include="Views\Gamer\EditTwo.cshtml" />
+    <Content Include="Views\Shared\DisplayTemplates\UrlToNewWindow.cshtml" />
+    <Content Include="Views\Gamer\DetailsFour.cshtml" />
+    <Content Include="Views\Gamer\EditThree.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\DateTime.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

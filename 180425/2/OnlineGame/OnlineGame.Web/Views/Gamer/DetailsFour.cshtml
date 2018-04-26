@@ -1,0 +1,77 @@
+﻿@{
+    ViewBag.Title = "DetailsFour";
+}
+<h2>Html.Display("GamerData")</h2>
+@Html.Display("GamerData")
+@*
+    4.
+    There are 2 categories of built-in templated helpers.
+    -----------------------------
+    4.1.
+    Display Templates
+    -----------------
+    4.1.1.
+    //@Html.DisplayFor(model => model.Name)
+    The view must have strongly typed view Model.
+    It can work with the complex type Model property.
+    It is similar to @Html.DisplayTextFor(model => model.GameHolder)
+    //@Html.DisplayTextFor(model => model.GameHolder)
+    model.GameHolder will return a Gamer object.
+    The Gamer class has [DisplayColumn("Name")] attribute,
+    so it will display Gamer Name property value
+    which is the full name of that gamer.
+    -----------------
+    4.1.2.
+    //@Html.DisplayForModel()
+    The view must have strongly typed view Model.
+    It will display every property in view model
+    except the properties with [ScaffoldColumn(false)] attribute.
+    -----------------
+    4.1.3.
+    @Html.Display helper does not need strongly typed view Mode.
+    //ViewData["GamerData"] = gamer;
+    //return View();
+    In the controller, we put the gamer object into ViewData["GamerData"]
+    "GamerData" in this case is the key of ViewData.
+    ViewData["GamerData"] contains that gamer object data,
+    so we don't have to use a view model.
+    //@Html.Display("GamerData")
+    In the view, we use @Html.Display("GamerData")
+    to retrieve the Gamer data from ViewData["GamerData"].
+    It will display everything
+    except the properties with [ScaffoldColumn(false)] attribute.
+    -----------------------------
+    4.2.
+    Display Templates
+    -----------------
+    4.2.1.
+    //@Html.EditorFor(model => model.Name)
+    The view must have strongly typed view Model.
+    It will create a textbox for the property value input.
+    -----------------
+    4.2.2.
+    //@Html.EditorForModel()
+    The view must have strongly typed view Model.
+    It will create textbox input for every property in view model
+    except the properties with [ScaffoldColumn(false)] attribute.
+    -----------------
+    4.2.3.
+    @Html.Editor helper does not need strongly typed view Mode.
+    //ViewData["GamerData"] = gamer;
+    //return View();
+    In the controller, we put the gamer object into ViewData["GamerData"]
+    "GamerData" in this case is the key of ViewData.
+    ViewData["GamerData"] contains that gamer object data,
+    so we don't have to use a view model.
+    //@Html.Editor("GamerData")
+    In the view, we use @Html.Editor("GamerData")
+    to retrieve the Gamer data from ViewData["GamerData"].
+    It will create textbox input for every properties in ViewData["GamerData"]
+    except the properties with [ScaffoldColumn(false)] attribute.
+    However, we pressed submit button and call the [HttpPost] action
+    //public async Task<ActionResult> EditThree(int id, string name, string gender, string city, DateTime? dateOfBirth, string emailAddress, int? score, string profileUrl, int? gameMoney, int? teamId)
+    OR
+    //public async Task<ActionResult> EditThree(Gamer gamer)
+    Both ways can not retrieve the data because it is not strongly typed.
+    I don't suggest to use @Html.Editor helper
+*@

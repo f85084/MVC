@@ -1,0 +1,105 @@
+﻿@model DateTime?
+
+<link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-1.12.4.min.js"></script>
+<script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+@*@Html.TextBox("", (Model.HasValue ? Model.Value.ToString("yyyy/MM/dd") : string.Empty), new { @class = "date" })*@
+@{
+    object formattedModelValue = ViewData.TemplateInfo.FormattedModelValue;
+    ViewBag.Title = "Edit";
+}
+@Html.TextBox("", (Model.HasValue ? @ViewData.TemplateInfo.FormattedModelValue : string.Empty), new { @class = "date" })
+@ViewData.ModelMetadata.ContainerType.ToString()
+@*OnlineGame.Web.Models.Gamer*@
+@ViewData.ModelMetadata.DisplayFormatString
+@*{0:dd/MM/yyyy}*@
+<script type="text/javascript">
+    $(function () {
+        $("input:text.date").datepicker(
+            {
+                //dateFormat: "yy/mm/dd"
+                dateFormat: "dd/mm/yy"
+            });
+    });
+</script>
+@*
+    10. EditorTemplates and DisplayTemplates by MVC convention
+    10.1.
+    DisplayTemplates
+    10.1.1.
+    Views\Shared\DisplayTemplates\UrlToNewWindow.cshtml
+    Views\Gamer\DisplayTemplates\UrlToNewWindow.cshtml
+    UrlToNewWindow.cshtml is the DisplayTemplate which must under "DisplayTemplates" folder.
+    Views\Shared\DisplayTemplates\UrlToNewWindow.cshtml means
+    the template is available for all the views.
+    Views\Gamer\DisplayTemplates\UrlToNewWindow.cshtml means
+    the template is available for only the views of Gamer controller.
+    10.1.2.
+    Using DisplayTemplates
+    10.1.2.1.
+    In the Models/Gamer/GamerMetaData.cs
+    //[DataType(DataType.Url)]
+    //[UIHint("UrlToNewWindow")]
+    //public string ProfileUrl { get; set; }
+    [DataType(DataType.Url)] attribute will display a hyperlink.
+    [UIHint("UrlToNewWindow")] attribute specify the name of view DisplayTemplate
+    to display the property data.
+    In this case, it will look for "DisplayTemplates/UrlToNewWindow.cshtml"
+    under "Shared" folder or "Gamer" folder.
+    Use that view template to disply the data of this property.
+    10.1.2.2.
+    //<a href="@ViewData.Model" target="_blank">@ViewData.Model</a>
+    In the Shared/DisplayTemplates/UrlToNewWindow.cshtml,
+    @ViewData.Model will take the Model data from the parent view.
+    In this case, it will return a profile url.
+    10.2.
+    EditorTemplates
+    10.2.1.
+    Views\Shared\EditorTemplates\DateTime.cshtml
+    Views\Gamer\EditorTemplates\DateTime.cshtml
+    DateTime.cshtml is the EditorTemplate which must under "EditorTemplates" folder.
+    Views\Shared\EditorTemplates\DateTime.cshtml means
+    the template is available for all the views.
+    Views\Gamer\EditorTemplates\DateTime.cshtml means
+    the template is available for only the views of Gamer controller.
+    10.2.2.
+    Using EditorTemplates
+    The EditorTemplate Name must match View Model property Type Name.
+    E.g. DateTime.ascx or DateTime.cshtml
+    10.2.2.1.
+    In the Models/Gamer/GamerMetaData.cs
+    ////[DataType(DataType.Date)] //Views/Shared/EditorTemplates/DateTime.cshtml will not Work.
+    ////[DisplayFormat(DataFormatString = "{0:dd/MM/yyyy hh:mm:ss tt}")]
+    //[DisplayFormat(DataFormatString = "{0:d}")]
+    //public Nullable<System.DateTime> DateOfBirth { get; set; }
+    The type is DateTime, so it will look for the EditorTemplate from
+    Views\Shared\EditorTemplates\DateTime.cshtml or
+    Views\Gamer\EditorTemplates\DateTime.cshtml
+    In this case, Views\Shared\EditorTemplates\DateTime.cshtml will be the EditorTemplate.
+    The View Model Property in Edit mode will use the EditorTemplate to display.
+    In this case,
+    //@model DateTime?
+    //@Html.TextBox("", (Model.HasValue ? Model.Value.ToString("yyyy/MM/dd") : string.Empty), new { @class = "date" })
+    So it will add the class="date" to the textbox input.
+    10.2.2.2.
+    In the Edit.cshtml
+    //<link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+    //<link href="~/Content/bootstrap.css" rel="stylesheet" />
+    //<script src="~/Scripts/jquery-1.12.4.min.js"></script>
+    //<script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+    //<script src="~/Scripts/bootstrap.min.js"></script>
+        ...
+    //<script type="text/javascript">
+    //    $(function () {
+    //        $("input:text.date").datepicker(
+    //            {
+    //                dateFormat: "yy/mm/dd"
+    //            });
+    //    });
+    //</script>
+*@

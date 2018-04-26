@@ -150,6 +150,7 @@ namespace OnlineGame.Web.Controllers
             //ViewBag.TeamId = new SelectList(_db.Teams, "Id", "Name", gamer.TeamId);
             //return View(gamer);
         }
+
         //// POST: Gamer/Edit/5
         //// To protect from overposting attacks, please enable the specific properties you want to bind to, for
         //// more details see https://go.microsoft.com/fwlink/?LinkId=317598.
@@ -192,13 +193,15 @@ namespace OnlineGame.Web.Controllers
             ViewBag.TeamId = new SelectList(_db.Teams, "Id", "Name", gamerA.TeamId);
             return View(gamerA);
         }
-        //[HttpPost]
-        //public async Task<ActionResult> EditThree(int id, string name, string gender, string city, DateTime? dateOfBirth, string emailAddress, int? score, string profileUrl, int? gameMoney, int? teamId)
-        ////public async Task<ActionResult> EditThree(Gamer gamer)
-        //{
-        //    var gamerData = ViewData["GamerData"];
-        //    return RedirectToAction("Index");
-        //}
+
+        [HttpPost]
+        public async Task<ActionResult> EditThree(int id, string name, string gender, string city, DateTime? dateOfBirth, string emailAddress, int? score, string profileUrl, int? gameMoney, int? teamId)
+        //public async Task<ActionResult> EditThree(Gamer gamer)
+        {
+            var gamerData = ViewData["GamerData"];
+            return RedirectToAction("Index");
+        }
+
         // GET: Gamer/Delete/5
         [HttpGet]
         public async Task<ActionResult> Delete(int? id)

@@ -1,0 +1,23 @@
+﻿<a href="@ViewData.Model" target="_blank">@ViewData.Model</a>
+@*
+    1.
+    //target="_blank"
+    measn open the link to new windows.
+    8.
+    8.1.
+    In the Models/Gamer/GamerMetaData.cs
+    //[DataType(DataType.Url)]
+    //[UIHint("UrlToNewWindow")]
+    //public string ProfileUrl { get; set; }
+    [DataType(DataType.Url)] attribute will display a hyperlink.
+    [UIHint("UrlToNewWindow")] attribute specify the name of view DisplayTemplate
+    to display the property data.
+    In this case, it will look for "DisplayTemplates/UrlToNewWindow.cshtml"
+    under "Shared" folder or "Gamer" folder.
+    Use that view template to disply the data of this property.
+    8.2.
+    //<a href="@ViewData.Model" target="_blank">@ViewData.Model</a>
+    In the Shared/DisplayTemplates/UrlToNewWindow.cshtml,
+    @ViewData.Model will take the Model data from the parent view.
+    In this case, it will return a profile url.
+*@
