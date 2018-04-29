@@ -8,6 +8,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using OnlineGame.Web.Models;
+using PagedList;
 
 namespace OnlineGame.Web.Controllers
 {
@@ -23,8 +24,11 @@ namespace OnlineGame.Web.Controllers
 
         // GET: Gamer
         [HttpGet]
-        public async Task<ActionResult> Index(string searchBy, string searchText)
+        public async Task<ActionResult> Index(string searchBy, string searchText, int? pageNumber, string sortBy)
         {
+            ViewBag.NameSort = String.IsNullOrEmpty(sortBy) ? "Name desc" : "";
+            ViewBag.GenderSort = sortBy == "Gender" ? "Gender desc" : "Gender";
+
             List<Gamer> gamers = await db.Gamer.ToListAsync();
             if (searchBy == "Gender")
             {
@@ -38,7 +42,31 @@ namespace OnlineGame.Web.Controllers
                     .Where(x => x.Name.Contains(searchText) || searchText == null)
                     .ToListAsync();
             }
-            return View(gamers);
+            IOrderedEnumerable<Gamer> gamersOrderedEnumerable;
+            switch (sortBy)
+            {
+                case "Name desc":
+                    gamersOrderedEnumerable = gamers.OrderByDescending(x => x.Name);
+                    break;
+                case "Gender desc":
+                    gamersOrderedEnumerable = gamers.OrderByDescending(x => x.Gender);
+                    break;
+                case "Gender":
+                    gamersOrderedEnumerable = gamers.OrderBy(x => x.Gender);
+                    break;
+                default:
+                    gamersOrderedEnumerable = gamers.OrderBy(x => x.Name);
+                    break;
+            }
+            //1.
+            //The first parameter is pagenumber
+            //pageNumber ?? 1 means if the pageNumber==null, then pageNumber==1
+            //2.
+            //The 2nd parameter is page size.
+            //We set page size is 5.
+            //IPagedList<Gamer> gamerPagedList = gamers.ToPagedList(pageNumber ?? 1, 5);
+            IPagedList<Gamer> gamerPagedList = gamersOrderedEnumerable.ToPagedList(pageNumber ?? 1, 5);
+            return View(gamerPagedList);
         }
 
         // GET: Gamers/Details/5

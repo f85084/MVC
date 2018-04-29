@@ -19,7 +19,6 @@ D:\學習\MVC\ch11\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.DiaSymReader.N
 D:\學習\MVC\ch11\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
 D:\學習\MVC\ch11\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
 D:\學習\MVC\ch11\OnlineGame\OnlineGame.Web\bin\roslyn\System.AppContext.dll
-D:\學習\MVC\ch11\OnlineGame\OnlineGame.Web\bin\roslyn\System.Collections.Immutable.dll
 D:\學習\MVC\ch11\OnlineGame\OnlineGame.Web\bin\roslyn\System.Console.dll
 D:\學習\MVC\ch11\OnlineGame\OnlineGame.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
 D:\學習\MVC\ch11\OnlineGame\OnlineGame.Web\bin\roslyn\System.Diagnostics.Process.dll
@@ -80,3 +79,9 @@ D:\學習\MVC\ch11\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.csproj.Cor
 D:\學習\MVC\ch11\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.csproj.CopyComplete
 D:\學習\MVC\ch11\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.dll
 D:\學習\MVC\ch11\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.pdb
+D:\學習\MVC\ch11\OnlineGame\OnlineGame.Web\bin\PagedList.dll
+D:\學習\MVC\ch11\OnlineGame\OnlineGame.Web\bin\PagedList.Mvc.dll
+D:\學習\MVC\ch11\OnlineGame\OnlineGame.Web\bin\PagedList.xml
+D:\學習\MVC\ch11\OnlineGame\OnlineGame.Web\bin\PagedList.Mvc.xml
+D:\學習\MVC\ch11\OnlineGame\OnlineGame.Web\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+D:\學習\MVC\ch11\OnlineGame\OnlineGame.Web\bin\roslyn\System.Collections.Immutable.dll

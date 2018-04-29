@@ -1,11 +1,12 @@
-﻿@model IEnumerable<OnlineGame.Web.Models.Gamer>
-
+﻿@using OnlineGame.Web.Models
+@using PagedList
+@using PagedList.Mvc
+@*@model IEnumerable<Gamer>*@
+@model IPagedList<Gamer>
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Gamer Index";
 }
-
-<h2>Index</h2>
-
+<h2>@ViewBag.Title</h2>
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
@@ -22,13 +23,30 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Name)
+            @*@Html.DisplayNameFor(model => model.Name)*@
+            @*@Html.DisplayNameFor(model => model.First().Name)*@
+            @Html.ActionLink("Name", "Index", new
+            {
+                sortBy = ViewBag.NameSort,
+                searchBy = Request.QueryString["searchBy"],
+                searchText = Request.QueryString["searchText"],
+            })
+            @*<a href="/?sortBy=Name%20desc">Name</a>*@
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Gender)
+            @*@Html.DisplayNameFor(model => model.Gender)*@
+            @*@Html.DisplayNameFor(model => model.First().Gender)*@
+            @Html.ActionLink("Gender", "Index", new
+            {
+                sortBy = ViewBag.GenderSort,
+                searchBy = Request.QueryString["searchBy"],
+                searchText = Request.QueryString["searchText"],
+            })
+            @*<a href="/?sortBy=Gender">Gender</a>*@
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.EmailAddress)
+            @*@Html.DisplayNameFor(model => model.EmailAddress)*@
+            @Html.DisplayNameFor(model => model.First().EmailAddress)
         </th>
         <th>
             Action
@@ -42,8 +60,6 @@
             </td>
         </tr>
     }
-    </tr>
-
     @foreach (var item in Model)
     {
         <tr>
@@ -63,5 +79,172 @@
             </td>
         </tr>
     }
-
 </table>
+@*@Html.PagedListPager(Model, pageNumber => Url.Action("Index",
+    new
+    {
+        //pageNumber = pageNumber,
+        pageNumber,
+        searchBy = Request.QueryString["searchBy"],
+        searchText = Request.QueryString["searchText"]
+    }))*@
+@*@Html.PagedListPager(Model, pageNumber => Url.Action("Index",
+    new
+    {
+        //pageNumber = pageNumber,
+        pageNumber,
+        searchBy = Request.QueryString["searchBy"],
+        searchText = Request.QueryString["searchText"]
+    }),
+    new PagedListRenderOptions{ Display = PagedListDisplayMode.IfNeeded })*@
+@*@Html.PagedListPager(Model, pageNumber => Url.Action("Index",
+    new
+    {
+        //pageNumber = pageNumber,
+        pageNumber,
+        searchBy = Request.QueryString["searchBy"],
+        searchText = Request.QueryString["searchText"]
+    }),
+    new PagedListRenderOptions
+    {
+        Display = PagedListDisplayMode.IfNeeded,
+        DisplayPageCountAndCurrentLocation = true
+    })*@
+@Html.PagedListPager(Model, pageNumber => Url.Action("Index",
+    new
+    {
+//pageNumber = pageNumber,
+pageNumber,
+        searchBy = Request.QueryString["searchBy"],
+        searchText = Request.QueryString["searchText"],
+        sortBy = Request["sortBy"]  //Request from ViewBag
+}),
+    new PagedListRenderOptions
+    {
+        Display = PagedListDisplayMode.IfNeeded,
+        DisplayPageCountAndCurrentLocation = true,
+        DisplayItemSliceAndTotal = true
+    })
+@*
+    1.
+    //@Html.PagedListPager(Model, pageNumber => Url.Action("Index",
+    //    new {
+    //        //pageNumber = pageNumber,
+    //        pageNumber,
+    //        searchBy = Request.QueryString["searchBy"],
+    //        searchText = Request.QueryString["searchText"] }))
+    1.1.
+    The PagedListPager() 1st parameter is IPagedList
+    which is the collection of gamers of current page.
+    1.2.
+    The PagedListPager() 2nd parameter is Func<int,string> generatePageURL
+    which we use Url.Action() to generate the Func<int,string>.
+    In this case, Func<int,string> means that
+    the input parameter is int, and the output is a string.
+    1.2.1.
+    The input parameter is the pageNumber which comes from the query string.
+    1.2.2.
+    The output is a string which is the generatePageURL.
+    In this case, it is Url.Action().
+    1.2.2.1.
+    The Url.Action() 1st parameter is action name which is "Index" action.
+    1.2.2.2.
+    The Url.Action() 2nd parameter is the route value.
+    1.2.2.2.1.
+    searchBy parameter should come from the query string, Request.QueryString["searchBy"].
+    1.2.2.2.2.
+    searchText parameter should come from the query string, Request.QueryString["searchText"].
+    1.3.
+    It will display the page number even there is only one page.
+    ---------------------------------------
+    2.
+    //@Html.PagedListPager(Model, pageNumber => Url.Action("Index",
+    //    new
+    //    {
+    //        //pageNumber = pageNumber,
+    //        pageNumber,
+    //        searchBy = Request.QueryString["searchBy"],
+    //        searchText = Request.QueryString["searchText"]
+    //    }),
+    //    new PagedListRenderOptions{ Display = PagedListDisplayMode.IfNeeded })
+    2.1.
+    //Display = PagedListDisplayMode.IfNeeded,
+    It will hide the page number when there is only one page,
+    because only one page means no need paging.
+    ---------------------------------------
+    3.
+    //@Html.PagedListPager(Model, pageNumber => Url.Action("Index",
+    //    new
+    //    {
+    //        //pageNumber = pageNumber,
+    //        pageNumber,
+    //        searchBy = Request.QueryString["searchBy"],
+    //        searchText = Request.QueryString["searchText"]
+    //    }),
+    //    new PagedListRenderOptions
+    //    {
+    //        Display = PagedListDisplayMode.IfNeeded,
+    //        DisplayPageCountAndCurrentLocation = true
+    //    })
+    3.1.
+    //Display = PagedListDisplayMode.IfNeeded,
+    It will hide the page number when there is only one page,
+    because only one page means no need paging.
+    3.2.
+    //DisplayPageCountAndCurrentLocation = true
+    It will display "Page 1 of 3"
+    ---------------------------------------
+    4.
+    //@Html.PagedListPager(Model, pageNumber => Url.Action("Index",
+    //    new
+    //    {
+    //        //pageNumber = pageNumber,
+    //        pageNumber,
+    //        searchBy = Request.QueryString["searchBy"],
+    //        searchText = Request.QueryString["searchText"]
+    //    }),
+    //    new PagedListRenderOptions
+    //    {
+    //        Display = PagedListDisplayMode.IfNeeded,
+    //        DisplayPageCountAndCurrentLocation = true,
+    //        DisplayItemSliceAndTotal = true
+    //    })
+    4.1.
+    //Display = PagedListDisplayMode.IfNeeded,
+    It will hide the page number when there is only one page,
+    because only one page means no need paging.
+    4.2.
+    //DisplayPageCountAndCurrentLocation = true
+    It will display "Page 1 of 3"
+    4.3.
+    //DisplayItemSliceAndTotal = true
+    It will display "Showing items 6 through 7 of 7"
+    ---------------------------------------
+    5.
+    //@Html.ActionLink("Name", "Index", new
+    //    {
+    //        sortBy = ViewBag.NameSort,
+    //        searchBy = Request.QueryString["searchBy"],
+    //        searchText = Request.QueryString["searchText"],
+    //    })
+    ...
+    //@Html.ActionLink("Gender", "Index", new
+    //    {
+    //        sortBy = ViewBag.GenderSort,
+    //        searchBy = Request.QueryString["searchBy"],
+    //        searchText = Request.QueryString["searchText"],
+    //    })
+    5.1.
+    When http://localhost:52319/Gamer/Index
+    //<a href="/?sortBy=Name%20desc">Name</a>
+    //<a href="/?sortBy=Gender">Gender</a>
+    5.2.
+    http://localhost:52319/?searchBy=Gender&searchText=Male
+    //<a href="/?sortBy=Name%20desc">Name</a>
+    //<a href="/?sortBy=Gender">Gender</a>
+    5.3.
+    http://localhost:52319/?sortBy=Name%20desc&searchBy=Gender&searchText=Male
+    //<a href="/?searchBy=Gender&amp;searchText=Male">Name</a>
+    //<a href="/?sortBy=Gender&amp;searchBy=Gender&amp;searchText=Male">Gender</a>
+*@
+
