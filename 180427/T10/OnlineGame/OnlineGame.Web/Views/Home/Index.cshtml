@@ -1,0 +1,83 @@
+﻿@*@using OnlineGame.Web.CustomHtmlHelper*@
+@{
+    ViewBag.Title = "Index";
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+    int sum1 = 0;
+    int sum2 = 0;
+
+    sum1 = 2 + 4 + 6 + 8 + 10;
+    sum2 = 1 + 3 + 5 + 7 + 9;
+
+    int day = 28;
+    int month = 2;
+    int year = 1988;
+}
+<h2>@ViewBag.Title</h2>
+
+<div>
+    @Html.ActionLink("Home Index", "Index", "Home")<br />
+    @Html.ActionLink("Home Index2", "Index2", "Home")<br />
+    @Html.ActionLink("Home Index3", "Index3", "Home")<br />
+    @Html.ActionLink("Gamer Index", "Index", "Gamer")<br />
+    @Html.ActionLink("Gamer Index2", "Index2", "Gamer")<br />
+    @Html.ActionLink("Gamer Index3", "Index3", "Gamer")<br />
+    @Html.ActionLink("Gamer Index4", "Index4", "Gamer")<br />
+    @Html.ActionLink("Gamer Details", "Details", "Gamer")<br />
+    @Html.ActionLink("Gamer Details2", "Details2", "Gamer")<br />
+    @Html.ActionLink("Team Index", "Index", "Team")<br />
+    @Html.ActionLink("Team Index2", "Index2", "Team")<br />
+    @Html.ActionLink("Team Index3", "Index3", "Team")<br />
+</div>
+<br />
+<hr />
+<div>
+    sum1 = @sum1
+</div>
+<div>
+    sum2 = @sum2
+</div>
+<hr />
+<div>
+    Even Number
+    @for (int i = 1; i <= 10; i++)
+    {
+        if (i % 2 == 0)
+        {
+            <text>@i</text>
+        }
+    }
+</div>
+<hr />
+<div>
+    Even Number part 2
+    @for (int i = 1; i <= 10; i++)
+    {
+        if (i % 2 == 0)
+        {
+            @i
+        }
+    }
+</div>
+<hr />
+<div>
+    Date is @day-@month-@year
+</div>
+<hr />
+<div>
+    Email: AAAAA@@BBBB.com
+</div>
+<hr />
+<div>
+    @for (int i = 1; i <= 3; i++)
+    {
+        <img src="@Url.Content(string.Format("~/Photos/Name0{0}.png", i))" alt="@Html.Raw("Photo0"+i)" />
+    }
+</div>
+<hr />
+<div>
+    @for (int i = 1; i <= 4; i++)
+    {
+        @Html.Image(string.Format("~/Photos/Name0{0}.png", i), string.Format("Photo0{0}", i))
+    }
+</div>
+<hr />
