@@ -164,6 +164,16 @@ namespace OnlineGame.Web.Controllers
             return RedirectToAction("Index");
         }
 
+        [HttpPost]
+        public async Task<ActionResult> DeleteMultiple(IEnumerable<int> GamerIdsToDelete, string searchBy, string searchText, int? pageNumber, string sortBy)
+        {
+            //Delete a list of gamers
+            List<Gamer> gamers = await db.Gamer.Where(g => GamerIdsToDelete.Contains(g.Id)).ToListAsync();
+            gamers.ForEach(g => db.Gamer.Remove(g));
+            await db.SaveChangesAsync();
+            return RedirectToAction("Index", new { searchBy, searchText, pageNumber, sortBy });
+        }
+
         protected override void Dispose(bool disposing)
         {
             if (disposing)
