@@ -1,0 +1,20 @@
+﻿@using System.Globalization
+@{
+    ViewBag.Title = "Gamer Index5";
+}
+<h2>ViewBag.Title</h2>
+<p>
+    Gamers retrieved At @DateTime.Now.ToString(CultureInfo.InvariantCulture)
+</p>
+<b>Server side Time : @ViewBag.ServerTime</b><br />
+<b>
+    <script type="text/javascript">
+            document.write("Client Side Time : " + Date());
+    </script>
+</b>
+<b>@ViewBag.GamerName</b>
+@using (Html.BeginForm("Index5", "Gamer"))
+{
+    <input type="text" name="gamerName" />
+    <input type="submit" />
+}

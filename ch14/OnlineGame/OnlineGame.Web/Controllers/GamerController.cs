@@ -83,6 +83,26 @@ namespace OnlineGame.Web.Controllers
             return $"Gamer Count = {db.Gamer.Count()} At {DateTime.Now}";
         }
 
+
+        //[OutputCache(Duration = 5, VaryByParam = "none")]
+        [OutputCache(Duration = 60, VaryByParam = "gamerName")]
+        public ActionResult Index5(string gamerName)
+        {
+            ViewBag.GamerName = gamerName ?? string.Empty;
+            ViewBag.ServerTime = DateTime.Now.ToString(CultureInfo.InvariantCulture);
+            return View();
+        }
+
+        [HttpGet]
+        //[OutputCache(Duration = 10, VaryByParam = "None", Location = OutputCacheLocation.None)]
+        //[OutputCache(Duration = 10, VaryByParam = "None", Location= OutputCacheLocation.Server)]
+        [OutputCache(Duration = 10, VaryByParam = "None", Location = OutputCacheLocation.ServerAndClient)]
+        public ActionResult Index7()
+        {
+            ViewBag.ServerTime = DateTime.Now.ToString(CultureInfo.InvariantCulture);
+            return View();
+        }
+
         // GET: Gamer/Details/5
         public async Task<ActionResult> Details(int? id)
         {
