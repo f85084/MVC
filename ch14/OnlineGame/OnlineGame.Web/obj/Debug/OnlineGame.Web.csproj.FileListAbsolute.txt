@@ -80,3 +80,8 @@ D:\Anna\筆記\MVC\ch14\OnlineGame\OnlineGame.Web\bin\EntityFramework.SqlServer.
 D:\Anna\筆記\MVC\ch14\OnlineGame\OnlineGame.Web\bin\zh-Hant\EntityFramework.resources.dll
 D:\Anna\筆記\MVC\ch14\OnlineGame\OnlineGame.Web\bin\roslyn\System.Collections.Immutable.dll
 D:\Anna\筆記\MVC\ch14\OnlineGame\OnlineGame.Web\bin\roslyn\System.IO.FileSystem.dll
+D:\Anna\筆記\MVC\ch14\OnlineGame\OnlineGame.Web\bin\PagedList.dll
+D:\Anna\筆記\MVC\ch14\OnlineGame\OnlineGame.Web\bin\PagedList.Mvc.dll
+D:\Anna\筆記\MVC\ch14\OnlineGame\OnlineGame.Web\bin\PagedList.xml
+D:\Anna\筆記\MVC\ch14\OnlineGame\OnlineGame.Web\bin\PagedList.Mvc.xml
+D:\Anna\筆記\MVC\ch14\OnlineGame\OnlineGame.Web\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
