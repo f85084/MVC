@@ -1,0 +1,17 @@
+﻿
+[Home : index3] -> OnActionExecuting 	- 3/05/2018 2:23:33 PM
+
+[Home : index3] -> OnActionExecuted 	- 3/05/2018 2:23:33 PM
+
+[home : index3] -> OnResultExecuting 	- 3/05/2018 2:23:33 PM 
+
+[home : index3] -> OnResultExecuted 	- 3/05/2018 2:23:33 PM 
+---------------------------------------------------------
+
+[Home : index4] -> OnActionExecuting 	- 3/05/2018 2:23:39 PM
+
+[Home : index4] -> OnActionExecuted 	- 3/05/2018 2:23:43 PM
+
+[home : index4] -> 
+ OnException Message: Something Bad happened.OnResultExecuted 	- 3/05/2018 2:23:43 PM 
+---------------------------------------------------------

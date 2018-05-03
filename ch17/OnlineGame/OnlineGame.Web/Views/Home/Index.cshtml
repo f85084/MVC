@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<h2>Views/Home/Index.cshtml</h2>
+<div>
+    @Html.ActionLink("Views/Home/Index.cshtml", "Index", "Home", new { area = "" }, null) <br />
+    @Html.ActionLink("Areas/Gamer/Views/Home/Index.cshtml", "Index", "Home", new { area = "Gamer" }, null) <br />
+    @Html.ActionLink("Areas/VipGamer/Views/Home/Index.cshtml", "Index", "Home", new { area = "VipGamer" }, null) <br />
+    @Html.ActionLink("Areas/Admin/Views/Home/Index.cshtml", "Index", "Home", new { area = "Admin" }, null) <br />
+</div>

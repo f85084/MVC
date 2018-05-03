@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Home Index";
+}
+<h2>Home Index</h2>
+<div style="font-family:Arial">
+    @using (Html.BeginForm("Index", "Home"))
+    {
+        <b>Note:</b>
+        <br />
+        @Html.TextArea("Note")
+        <br />
+        <input type="submit" value="Submit" />
+    }
+</div>
