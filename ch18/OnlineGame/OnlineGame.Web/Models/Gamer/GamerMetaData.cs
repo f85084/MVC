@@ -32,10 +32,12 @@ namespace OnlineGame.Web.Models
         [RegularExpression(WebShareConst.EmailRegularExpression, ErrorMessage = WebShareConst.EmailNotValid)]  //EmailAddress Regular Expression
         [Required]
         public string EmailAddress { get; set; }
+
         [Range(1, 1000000)]
         [Required]
         public int GameMoney { get; set; }
-        //[Range(typeof(DateTime), "1/1/1970", "1/1/2001", ErrorMessage = "Date is out of Range")]    //Error - Client Side validation will never pass
+
+        //[Range(typeof(DateTime), "1/1/1970", "1/1/2001", ErrorMessage = "Date is out of Range 超過範圍")]    //Error - Client Side validation will never pass
         //[Range(typeof(DateTime), "1/1/1970", "1/1/2001")] //Error - Client Side validation will never pass
         //[DateRange("01/01/1970", "01/01/2001")]
         //[DateRange("01/01/1970", DateTime.Now.ToShortDateString())] //Error :  An attribute argument must be a constant expression

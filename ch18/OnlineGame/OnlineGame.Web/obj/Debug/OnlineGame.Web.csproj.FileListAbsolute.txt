@@ -82,3 +82,4 @@ D:\Anna\筆記\MVC\ch18\OnlineGame\OnlineGame.Web\bin\EntityFramework.xml
 D:\Anna\筆記\MVC\ch18\OnlineGame\OnlineGame.Web\bin\EntityFramework.SqlServer.xml
 D:\Anna\筆記\MVC\ch18\OnlineGame\OnlineGame.Web\bin\zh-Hant\EntityFramework.resources.dll
 D:\Anna\筆記\MVC\ch18\OnlineGame\OnlineGame.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\Anna\筆記\MVC\ch18\OnlineGame\OnlineGame.Web\bin\zh-Hant\EntityFramework.SqlServer.resources.dll

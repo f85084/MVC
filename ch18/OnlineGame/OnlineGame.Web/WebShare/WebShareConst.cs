@@ -8,12 +8,12 @@
 
         //RegularExpression
         //https://regexr.com/
-        public const string FirstNameLastNameRegularExpression = @"^(([A-za-z]+[\s]{1}[A-za-z]+)|([A-Za-z]+))$ "  ;
+        public const string FirstNameLastNameRegularExpression = @"^(([A-za-z]+[\s]{1}[A-za-z]+)|([A-Za-z]+))$"  ;
         public const string EmailRegularExpression = @"^[\w-\._\+%]+@(?:[\w-]+\.)+[\w]{2,6}$";
 
         //Validation String
         public const string EmailNotValid = "Email is not valid";
-        public const string FirstNameLastNameNotValid = "Please enter first name or first name and last name.";
+        public const string FirstNameLastNameNotValid = "Please enter first name or first name and last name.請輸入性名";
         public const string EmailHasBeenTaken = "The email has already been taken.";
         public const string ValidationSummaryTitleString = "Please check the following fields.";
     }
