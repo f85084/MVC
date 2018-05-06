@@ -7,4 +7,4 @@ jQuery.validator.methods.date = function (value, element) {
     return this.optional(element) || dateRegex.test(value);
 };
 $(function () {
-        });
+});

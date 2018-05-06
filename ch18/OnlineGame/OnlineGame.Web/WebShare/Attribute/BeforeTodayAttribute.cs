@@ -36,4 +36,3 @@ namespace OnlineGame.Web.WebShare.Attribute
         }
     }
 }
-

@@ -8,7 +8,7 @@ namespace OnlineGame.Web.WebShare.Attribute
         //private const string DateFormat = "dd/MM/yyyy";
         //private static string DateFormat = System.Configuration.ConfigurationManager.AppSettings["DateDormat"];
         private const string DateFormat = WebShareConst.DateFormat;
-        private const string DefaultErrorMessage = "{0}, '{1}' must be a date between {2:d} and {3:d}.";
+        private const string DefaultErrorMessage = "{0}, '{1}' 必須在 {2:d} 和 {3:d}之間.";
         public DateTime MinDate { get; set; }
         public DateTime MaxDate { get; set; }
         public DateRangeAttribute(string minDate, string maxDate)
