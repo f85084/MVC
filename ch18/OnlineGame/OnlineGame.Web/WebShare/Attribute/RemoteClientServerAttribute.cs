@@ -40,7 +40,7 @@ namespace OnlineGame.Web.WebShare.Attribute
                     //if (response is JsonResult)
                     //object jsonData = ((JsonResult)response).Data;
                     var result = response as JsonResult;
-                    object jsonData = result?.Data; //如果不是空的就result=Data
+                    object jsonData = result?.Data; //如果result不是空的就.Data
                     //If the data is true, it means pass the validation.
                     //Otherwise return new ValidationResult(ErrorMessage);
                     if (jsonData is bool)

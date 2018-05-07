@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OnlineGameModelStoreContainer" CdmEntityContainer="OnlineGameContext">
+    <EntitySetMapping Name="Gamers">
+      <EntityTypeMapping TypeName="OnlineGameModel.Gamer">
+        <MappingFragment StoreEntitySet="Gamer">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Score" ColumnName="Score" />
+          <ScalarProperty Name="GameMoney" ColumnName="GameMoney" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

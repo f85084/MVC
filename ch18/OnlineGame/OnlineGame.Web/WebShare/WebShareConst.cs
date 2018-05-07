@@ -14,7 +14,7 @@
         //Validation String
         public const string EmailNotValid = "Email is not valid";
         public const string FirstNameLastNameNotValid = "Please enter first name or first name and last name.請輸入性名";
-        public const string EmailHasBeenTaken = "The email has already been taken.";
+        public const string EmailHasBeenTaken = "email 已經註冊.";
         public const string ValidationSummaryTitleString = "Please check the following fields.";
     }
 }
