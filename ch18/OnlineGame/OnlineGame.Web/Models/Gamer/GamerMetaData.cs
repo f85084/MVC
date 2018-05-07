@@ -20,9 +20,9 @@ namespace OnlineGame.Web.Models
 
         [Required]
         public string Name { get; set; }
-        //[Remote("IsEmailAvailable", "Gamer", ErrorMessage = "The email has already been taken.")]
+        //[Remote("IsEmailAvailable", "Gamer", ErrorMessage = "email 已被註冊.")]
         //[Remote("IsEmailAvailable", "Gamer", ErrorMessage = WebShareConst.EmailHasBeenTaken)]
-        //[RemoteClientServer("IsEmailAvailable", "Gamer", ErrorMessage = WebShareConst.EmailHasBeenTaken)]
+        [RemoteClientServer("IsEmailAvailable", "Gamer", ErrorMessage = WebShareConst.EmailHasBeenTaken)]
         ////Remote attribute can only do the client side validation.
         ////RemoteClientServer is a customize attribute which can do both client side and server side validation.
         ////Don't add Remote attribute in shared model, it will affect both Edit and Create mode.
