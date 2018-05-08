@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineGame.Web", "OnlineGame.Web\OnlineGame.Web.csproj", "{FDD3B019-031B-4FD2-AEEE-C1A36C13DCCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDD3B019-031B-4FD2-AEEE-C1A36C13DCCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD3B019-031B-4FD2-AEEE-C1A36C13DCCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD3B019-031B-4FD2-AEEE-C1A36C13DCCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD3B019-031B-4FD2-AEEE-C1A36C13DCCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DF17DB5-97D1-4A40-B360-7B6946700E9F}
+	EndGlobalSection
+EndGlobal
