@@ -1,0 +1,110 @@
+﻿@model BusinessLayer.Gamer
+
+@{
+    Layout = null;
+}
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<div class="row">
+    <h2>Update Gamer</h2>
+
+    @*@using (Html.BeginForm("Edit", "Gamer"))*@
+    @*@using (Html.BeginForm("Edit2", "Gamer"))*@
+    @*@using (Html.BeginForm("Edit3", "Gamer"))*@
+    @*@using (Html.BeginForm("Edit4", "Gamer"))*@
+    @using (Html.BeginForm("Edit5", "Gamer"))
+    {
+        <div class="form-horizontal">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            
+            @Html.HiddenFor(model => model.Id)
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Name, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @*@Html.EditorFor(model => model.Name, new {htmlAttributes = new {@class = "form-control"}})*@
+
+                    @Html.HiddenFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.DisplayFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Gender, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @*@Html.EditorFor(model => model.Gender, new { htmlAttributes = new { @class = "form-control" } })*@
+
+                    @*@Html.DropDownList("Gender",new List<SelectListItem>
+                        {
+                            new SelectListItem{Text = "Male", Value = "Male"},
+                            new SelectListItem{Text = "Female", Value = "Female"}
+                        })*@
+
+                    @Html.DropDownList("Gender", new List<SelectListItem>
+                    {
+                        new SelectListItem{Text = "Male", Value = "Male"},
+                        new SelectListItem{Text = "Female", Value = "Female"}
+                    }, "Select Gender")
+
+                    @Html.ValidationMessageFor(model => model.Gender, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.City, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.City, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.City, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.DateOfBirth, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.DateOfBirth, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.DateOfBirth, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.TeamId, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.TeamId, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.TeamId, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Save" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+
+    <div>
+        @Html.ActionLink("Back to List", "Index2")
+    </div>
+
+</div>
+
+@*
+1.
+1.1.
+//@Html.HiddenFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+It will create the following.
+//<input data-val="true" data-val-required="The Name field is required." htmlattributes="{ class = form-control }" id="Name" name="Name" type="hidden" value="Name01 ABB">  
+1.2.
+//@Html.DisplayFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+It will create the following.
+//Name01 ABB  
+1.3.
+//@Html.EditorFor(model => model.Name, new {htmlAttributes = new {@class = "form-control"}})
+It will create the following.
+//<input class="form-control text-box single-line valid" id="Name" name="Name" type="text" value="Name01 ABB">
+
+
+*@

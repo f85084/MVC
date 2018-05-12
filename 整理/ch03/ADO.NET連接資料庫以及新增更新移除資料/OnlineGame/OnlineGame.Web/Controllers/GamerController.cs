@@ -80,7 +80,7 @@ namespace OnlineGame.Web.Controllers
         }
 
 
-        // 1. Retrieve form data using FormCollection
+        // 1. Retrieve form data using FormCollection 使用FormCollection從view裡面取值
         [HttpPost]
         public ActionResult Create(FormCollection formCollection)
         {

@@ -20,3 +20,15 @@ C:\Users\AnnaChen\Downloads\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertDa
 C:\Users\AnnaChen\Downloads\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
 C:\Users\AnnaChen\Downloads\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\Users\AnnaChen\Downloads\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫以及新增更新移除資料\OnlineGame\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫以及新增更新移除資料\OnlineGame\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫以及新增更新移除資料\OnlineGame\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫以及新增更新移除資料\OnlineGame\BusinessLayer\bin\Debug\EntityFramework.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫以及新增更新移除資料\OnlineGame\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫以及新增更新移除資料\OnlineGame\BusinessLayer\bin\Debug\EntityFramework.xml
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫以及新增更新移除資料\OnlineGame\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫以及新增更新移除資料\OnlineGame\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫以及新增更新移除資料\OnlineGame\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫以及新增更新移除資料\OnlineGame\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫以及新增更新移除資料\OnlineGame\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫以及新增更新移除資料\OnlineGame\BusinessLayer\obj\Debug\BusinessLayer.pdb
