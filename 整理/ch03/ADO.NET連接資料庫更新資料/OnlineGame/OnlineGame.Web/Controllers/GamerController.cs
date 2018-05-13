@@ -302,14 +302,6 @@ namespace OnlineGame.Web.Controllers
             GamerBusinessLayer gamerBusinessLayer =
                 new GamerBusinessLayer();
             BusinessLayer.Gamer gamer = gamerBusinessLayer.Gamers.Single(g => g.Id == id);
-
-            //1.
-            ////TryUpdateModel(gamer, new[] { "Id", "Gender", "City", "DateOfBirth", "TeamId" });
-            ////UpdateModel(gamer, new[] { "Id", "Gender", "City", "DateOfBirth", "TeamId" });
-            //The second parameter of UpdateModel() and TeyUpdateModel() is included properties.
-            //In this case, it will only update the following properties into model.
-            //"Id", "Gender", "City", "DateOfBirth", "TeamId"
-            //The Name property is not included so it will not be updated.
             //2.
             ////TryUpdateModel(gamer, null, null, new[] { "Name" });
             ////UpdateModel(gamer, null, null, new[] { "Name" });
