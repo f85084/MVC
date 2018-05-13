@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "HtmlHelpers";
+}
+<h2>HtmlHelpers</h2>
+@Html.TextBox("Name")
+@*<input id="Name" name="Name" type="text" value="">*@
+<br />
+@Html.TextBox("Name2", "Name2Value")
+@*<input id="Name2" name="Name2" type="text" value="Name2Value">*@
+<br />
+@Html.TextBox("Name3", "Name3Value", new { style = "background-color:Gray; color:White; font-weight:bold", title = "Please enter Name3Value" })
+@*<input id="Name3" name="Name3" style="background-color:Gray; color:White; font-weight:bold" title="Please enter Name3Value" type="text" value="Name3Value">*@
+<br />
+@Html.TextBox("Name4", "Name4Value", new { @class = "ClassStyle", @readonly = "true" })
+ @*<input class="ClassStyle" id="Name4" name="Name4" readonly="true" type="text" value="Name4Value">*@
+<br />
+@Html.Label("LastName", "Last Name")
+@*<label for="LastName">Last Name</label>*@
+<br />
+@Html.Password("Password")
+@*<input id="Password" name="Password" type="password">*@
+<br />
+@Html.TextArea("Note", "", 10, 20, null)
+@*<textarea cols="20" id="Note" name="Note" rows="10"></textarea>*@
+<br />
+@Html.Hidden("Id")
+@*<input id="Id" name="Id" type="hidden" value="">*@
+@*
+    1.
+    HtmlHelper contains a lot of extension methods to create form element.
+    You may use HTML to write a view,
+    but @HTML Helper can simplify the HTML code.
+
+    1.4.
+    Some of HTML attributes are reserved keywords.
+    E.g. Class, ReadOnly
+    In this case, it needs @.
+    //@Html.TextBox("Name4", "Name4Value", new { @class = "ClassStyle", @readonly="true" })
+    It will create the following.
+    //<input class="ClassStyle" id="Name4" name="Name4" readonly="true" type="text" value="Name4Value">
+    1.5.
+    //@Html.Label("LastName", "Last Name")
+    It will create the following.
+    //<label for="LastName">Last Name</label>
+    1.6.
+    //@Html.Password("Password")
+    It will create the following.
+    //<input id="Password" name="Password" type="password">
+    1.7.
+    @Html.TextArea("Note", "", 10, 20, null)
+    It will create the following.
+    //<textarea cols="20" id="Note" name="Note" rows="10"></textarea>
+    1.8.
+    @Html.Hidden("Id")
+    It will create the following.
+    //<input id="Id" name="Id" type="hidden" value="">
+*@

@@ -1,0 +1,24 @@
+﻿@using OnlineGame.Web.Models
+@model List<MultipleSelect>
+@{
+    ViewBag.Title = "CheckBoxList";
+}
+<div style="font-family:Arial">
+    <h2>CheckBoxList</h2>
+    @using (Html.BeginForm("CheckBoxList", "Gamers"))
+    {
+        @Html.EditorForModel()
+        <br />
+        <input type="submit" value="Submit" />
+    }
+</div>
+@*
+    By MVC convention,
+    @Html.EditorForModel() function is going to look for
+    a cshtml view template with the same name
+    as the current IEnumerable Model item type.
+    In this case, the Model is List<MultipleSelect>.
+    The IEnumerable Model item type is MultipleSelect.
+    The EditorForModel() will look for MultipleSelect.cshtml.
+    The Model of MultipleSelect.cshtml must be MultipleSelect type.
+*@

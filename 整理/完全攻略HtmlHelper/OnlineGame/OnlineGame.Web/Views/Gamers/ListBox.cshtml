@@ -1,0 +1,24 @@
+﻿@using OnlineGame.Web.Models
+@model MultipleSelectViewModel
+@{
+    ViewBag.Title = "ListBox";
+}
+<h2>ListBox</h2>
+@using (Html.BeginForm())
+{
+    @Html.ListBoxFor(model => model.SelectedItemIds, Model.MultipleSelectItems, new { size = 5 })
+    <br />
+    <input type="submit" value="Submit" />
+}
+@*
+    @Html.ListBoxFor(model => model.SelectedItemIds, Model.MultipleSelectItems, new { size = 5 })
+    It will create the following.
+    <select id="SelectedItemIds" multiple="multiple" name="SelectedItemIds" size="5">
+        <option value="1">MultipleSelect Item A</option>
+        <option value="2">MultipleSelect Item B</option>
+        <option value="3">MultipleSelect Item C</option>
+        <option value="4">MultipleSelect Item D</option>
+        <option value="5">MultipleSelect Item E</option>
+        <option value="6">MultipleSelect Item F</option>
+    </select>
+*@

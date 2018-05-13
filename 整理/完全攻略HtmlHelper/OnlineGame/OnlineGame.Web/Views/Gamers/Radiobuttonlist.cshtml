@@ -1,0 +1,30 @@
+﻿@using OnlineGame.Web.Models
+@model Game
+@{
+    ViewBag.Title = "Radiobuttonlist";
+}
+<h2>Radiobuttonlist</h2>
+@using (Html.BeginForm("Radiobuttonlist", "Gamers"))
+{
+    foreach (SingleSelect item in Model.SingleSelectItems)
+    {
+        @(item.IsSelected ?
+                    Html.RadioButtonFor(model => model.SelectedItemId, item.Id, new { @checked = "checked" }) :
+                    Html.RadioButtonFor(model => model.SelectedItemId, item.Id))
+        @*@Html.RadioButtonFor(model => model.SelectedItemId, item.Id)*@
+        @item.Name<br />
+    }
+    <br />
+    <br />
+    <input type="submit" value="Submit" />
+}
+@*
+    //@(item.IsSelected?
+    //    Html.RadioButtonFor(model => model.SelectedItemId, item.Id, new {@checked = "checked"}) :
+    //    Html.RadioButtonFor(model => model.SelectedItemId, item.Id))
+    It will create the following.
+    //<input id="SelectedItemId" name="SelectedItemId" type="radio" value="1">SingleSelect Item A<br>
+    //<input checked="checked" id="SelectedItemId" name="SelectedItemId" type="radio" value="2">SingleSelect Item B<br>
+    //<input id="SelectedItemId" name="SelectedItemId" type="radio" value="3">SingleSelect Item C<br>
+*@
+
