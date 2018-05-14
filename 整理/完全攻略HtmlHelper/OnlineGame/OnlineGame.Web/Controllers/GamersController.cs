@@ -56,7 +56,7 @@ namespace OnlineGame.Web.Controllers
         [HttpGet]
         public ActionResult TextBoxFor()
         {
-            Game game = new Game("GameA");
+            Game game = new Game("GameB");
             return View(game);
         }
 
@@ -83,6 +83,7 @@ namespace OnlineGame.Web.Controllers
                 await _dbContext.MultipleSelects.ToListAsync();
             return View(multipleSelects);
         }
+
         [HttpPost]
         public string CheckBoxList(IEnumerable<MultipleSelect> multipleSelects)
         {
@@ -127,6 +128,7 @@ namespace OnlineGame.Web.Controllers
             };
             return View(multipleSelectViewModel);
         }
+
         [HttpPost]
         public string ListBox(IEnumerable<string> selectedItemIds)
         {

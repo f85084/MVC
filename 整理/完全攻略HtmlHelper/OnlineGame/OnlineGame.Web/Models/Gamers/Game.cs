@@ -34,7 +34,7 @@ namespace OnlineGame.Web.Models
                 }
             }
         }
-        //Constructor
+
         public Game(string name)
         {
             Name = name;
