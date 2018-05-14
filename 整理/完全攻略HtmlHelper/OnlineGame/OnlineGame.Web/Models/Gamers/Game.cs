@@ -8,6 +8,7 @@ namespace OnlineGame.Web.Models
         public string Name { get; set; }
         public SingleSelect SelectedItem { get; set; }
         public string SelectedItemId { get; set; }
+
         public List<Team> Teams
         {
             get

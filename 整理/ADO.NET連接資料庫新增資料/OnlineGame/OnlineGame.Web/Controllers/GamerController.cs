@@ -160,20 +160,13 @@ namespace OnlineGame.Web.Controllers
             if (!ModelState.IsValid)
             {
                 return View("Create");
-                //Go to Create.cshtml, 
-                //so users can correct their input value.
             }         
             GamerBusinessLayer gamerBusinessLayer =
                 new GamerBusinessLayer();
 
             BusinessLayer.Gamer gamer = new BusinessLayer.Gamer();
-            //UpdateModel<BusinessLayer.Gamer>(gamer);
             //UpdateModel(gamer);
             TryUpdateModel(gamer);
-            //1.
-            // UpdateModel() and TryUpdateModel() inspects all the HttpRequest inputs 
-            // such as posted Form data, QueryString, 
-            // Cookies and Server variables and populate the gamer object.
 
             gamerBusinessLayer.AddGamer(gamer);
             return RedirectToAction("Index2");

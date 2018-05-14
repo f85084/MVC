@@ -32,3 +32,15 @@ D:\學習\MVC\整理\ch03\ADO.NET連接資料庫以及新增更新移除資料\O
 D:\學習\MVC\整理\ch03\ADO.NET連接資料庫以及新增更新移除資料\OnlineGame\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
 D:\學習\MVC\整理\ch03\ADO.NET連接資料庫以及新增更新移除資料\OnlineGame\BusinessLayer\obj\Debug\BusinessLayer.dll
 D:\學習\MVC\整理\ch03\ADO.NET連接資料庫以及新增更新移除資料\OnlineGame\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫新增資料\OnlineGame\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫新增資料\OnlineGame\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫新增資料\OnlineGame\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫新增資料\OnlineGame\BusinessLayer\bin\Debug\EntityFramework.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫新增資料\OnlineGame\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫新增資料\OnlineGame\BusinessLayer\bin\Debug\EntityFramework.xml
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫新增資料\OnlineGame\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫新增資料\OnlineGame\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫新增資料\OnlineGame\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫新增資料\OnlineGame\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫新增資料\OnlineGame\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫新增資料\OnlineGame\BusinessLayer\obj\Debug\BusinessLayer.pdb
