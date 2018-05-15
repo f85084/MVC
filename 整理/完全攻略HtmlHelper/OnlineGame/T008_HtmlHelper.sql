@@ -155,7 +155,7 @@ VALUES  ( N'MultipleSelect Item B', 0 );
 INSERT  MultipleSelect
 VALUES  ( N'MultipleSelect Item C', 0 );
 INSERT  MultipleSelect
-VALUES  ( N'MultipleSelect Item D', 0);
+VALUES  ( N'MultipleSelect Item D', 1 );
 INSERT  MultipleSelect
 VALUES  ( N'MultipleSelect Item E', 0 );
 INSERT  MultipleSelect

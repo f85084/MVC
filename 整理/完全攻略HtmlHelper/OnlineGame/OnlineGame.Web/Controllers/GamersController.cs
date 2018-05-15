@@ -43,7 +43,6 @@ namespace OnlineGame.Web.Controllers
             ViewBag.selectListItems1 = selectListItems;
             return View();
         }
-        
         [HttpGet]
         public ActionResult TextBox()
         {
@@ -52,14 +51,12 @@ namespace OnlineGame.Web.Controllers
             ViewBag.GameTeams = new SelectList(game.Teams, "Id", "Name");
             return View();
         }
-
         [HttpGet]
         public ActionResult TextBoxFor()
         {
-            Game game = new Game("GameB");
+            Game game = new Game("GameA");
             return View(game);
         }
-
         [HttpGet]
         public ActionResult Radiobuttonlist()
         {
@@ -74,8 +71,6 @@ namespace OnlineGame.Web.Controllers
                 : $"Selected Id == {game.SelectedItemId}";
             //return RedirectToAction("Index");
         }
-        
-        
         [HttpGet]
         public async Task<ActionResult> CheckBoxList()
         {
@@ -112,7 +107,6 @@ namespace OnlineGame.Web.Controllers
             //Retrive data from DB
             List<MultipleSelect> multipleSelects =
                 await _dbContext.MultipleSelects.ToListAsync();
-
             List<SelectListItem> listSelectListItems =
                 multipleSelects.Select(
                     item => new SelectListItem
@@ -121,14 +115,12 @@ namespace OnlineGame.Web.Controllers
                         Value = item.Id.ToString(),
                         Selected = item.IsSelected
                     }).ToList();
-
             MultipleSelectViewModel multipleSelectViewModel = new MultipleSelectViewModel
             {
                 MultipleSelectItems = listSelectListItems
             };
             return View(multipleSelectViewModel);
         }
-
         [HttpPost]
         public string ListBox(IEnumerable<string> selectedItemIds)
         {
@@ -140,6 +132,6 @@ namespace OnlineGame.Web.Controllers
             sb.Append($"Selected ID - {string.Join(", ", selectedItemIds)}");
             return sb.ToString();
         }
-
     }
 }
+

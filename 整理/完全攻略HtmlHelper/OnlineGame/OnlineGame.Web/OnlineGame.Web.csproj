@@ -129,8 +129,7 @@
     <Content Include="Views\Gamers\TextBoxFor.cshtml" />
     <Content Include="Views\Gamers\TextBox.cshtml" />
     <Content Include="Views\Gamers\Radiobuttonlist.cshtml" />
-    <Content Include="Views\Gamers\EditiorTemplates\MultipleSelect.cshtml" />
-    <Content Include="Views\Gamers\CheckBoxList.cshtml" />
+    <Content Include="Views\Gamers\EditorTemplates\MultipleSelect.cshtml" />
     <Content Include="Views\Gamers\ListBox.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -190,6 +189,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Gamers\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Gamers\CheckBoxList.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -4,9 +4,14 @@
     ViewBag.Title = "MultipleSelect";
 }
 @Html.HiddenFor(model => model.Id)
+@*<input data-val="true" data-val-number="The field Id must be a number." data-val-required="The Id field is required." name="[0].Id" type="hidden" value="1">*@
 @Html.HiddenFor(model => model.Name)
+@*<input name="[0].Name" type="hidden" value="MultipleSelect Item A">*@
+
 @Html.CheckBoxFor(model => model.IsSelected)
 @Html.DisplayFor(model => model.Name)<br />
+    @*<input data-val="true" data-val-number="The field Id must be a number." data-val-required="The Id field is required." name="[0].Id" type="hidden" value="1" />
+    <input name="[0].Name" type="hidden" value="MultipleSelect Item A" />*@
 @*
     1.
     1.1.
