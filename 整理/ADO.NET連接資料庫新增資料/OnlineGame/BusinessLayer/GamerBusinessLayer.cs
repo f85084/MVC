@@ -13,12 +13,8 @@ namespace BusinessLayer
             {
                 string connectionString =
                     ConfigurationManager.ConnectionStrings["OnlineGameContext"].ConnectionString;
-                //讀取ConnectionStrings
                 List<Gamer> gamers = new List<Gamer>();
-                //建立List<Gamer>
-                //讀取下面的Data 放入List
                 using (SqlConnection con = new SqlConnection(connectionString))
-                //取得ConnectionString 建立 SqlConnection 後跑完後從memory清除掉 SqlConnection
                 {
                     SqlCommand cmd = new SqlCommand("spGetGamers", con);
                     cmd.CommandType = CommandType.StoredProcedure;
