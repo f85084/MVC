@@ -236,6 +236,7 @@ namespace OnlineGame.Web.Controllers
             //2.
             ////UpdateModel(gamer, null, null, new[] { "Name" });
             //update all properties except Name property
+            //UpdateModel(gamer, null, null, new[] { "Name" });
             UpdateModel(gamer, null, null, new[] { "Name" });
 
             if (!ModelState.IsValid)
