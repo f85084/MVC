@@ -1,0 +1,383 @@
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\csc.exe
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\csc.exe.config
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\csc.rsp
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\csi.exe
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\csi.rsp
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\System.AppContext.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\System.Collections.Immutable.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\System.IO.FileSystem.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\System.Reflection.Metadata.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\vbc.exe
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\vbc.exe.config
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\vbc.rsp
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\VBCSCompiler.exe
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\roslyn\VBCSCompiler.exe.config
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\OnlineGame.Web.dll.config
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\OnlineGame.Web.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\OnlineGame.Web.pdb
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\EntityFramework.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\EntityFramework.SqlServer.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\Microsoft.Web.Infrastructure.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\System.Web.Helpers.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\System.Web.Mvc.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\System.Web.Razor.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Deployment.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Razor.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\EntityFramework.xml
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\EntityFramework.SqlServer.xml
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\System.Web.Razor.xml
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.xml
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Deployment.xml
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Razor.xml
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\System.Web.Helpers.xml
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\bin\System.Web.Mvc.xml
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.csprojResolveAssemblyReference.cache
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.dll
+d:\0_mydocument\documents\visual studio 2017\Projects\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.pdb
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\csc.exe
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\csc.exe.config
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\csc.rsp
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\csi.exe
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\csi.rsp
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\System.AppContext.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\System.IO.FileSystem.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\vbc.exe
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\vbc.exe.config
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\vbc.rsp
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\VBCSCompiler.exe
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\OnlineGame.Web.dll.config
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\OnlineGame.Web.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\OnlineGame.Web.pdb
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\BusinessLayer.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\EntityFramework.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\EntityFramework.SqlServer.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\System.Web.Helpers.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\System.Web.Mvc.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\System.Web.Razor.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Deployment.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Razor.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\BusinessLayer.pdb
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\EntityFramework.xml
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\EntityFramework.SqlServer.xml
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\System.Web.Razor.xml
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.xml
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Deployment.xml
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Razor.xml
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\System.Web.Helpers.xml
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\System.Web.Mvc.xml
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.csprojResolveAssemblyReference.cache
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.dll
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.pdb
+D:\1_Git\KL01\0_KL\MVC_KL\OnlineGame\OnlineGame.Web\bin\BusinessLayer.dll.config
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\csc.exe
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\csc.exe.config
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\csc.rsp
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\csi.exe
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\csi.rsp
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\System.AppContext.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\System.IO.FileSystem.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\vbc.exe
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\vbc.exe.config
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\vbc.rsp
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\VBCSCompiler.exe
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\OnlineGame.Web.dll.config
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\OnlineGame.Web.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\OnlineGame.Web.pdb
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\BusinessLayer.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\EntityFramework.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\EntityFramework.SqlServer.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\System.Web.Helpers.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\System.Web.Mvc.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\System.Web.Razor.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Deployment.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Razor.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\BusinessLayer.pdb
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\BusinessLayer.dll.config
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\EntityFramework.xml
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\EntityFramework.SqlServer.xml
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\System.Web.Razor.xml
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.xml
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Deployment.xml
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Razor.xml
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\System.Web.Helpers.xml
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\bin\System.Web.Mvc.xml
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.csprojResolveAssemblyReference.cache
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.dll
+D:\1_Git\KL01\0_KL\MVC_KL\T004_MvcConventions_AdoDotNet_BusinessLayer_InsertData\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.pdb
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\csc.exe
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\csc.exe.config
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\csc.rsp
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\csi.exe
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\csi.rsp
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\System.AppContext.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\System.IO.FileSystem.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\vbc.exe
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\vbc.exe.config
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\vbc.rsp
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\VBCSCompiler.exe
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\OnlineGame.Web.dll.config
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\OnlineGame.Web.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\OnlineGame.Web.pdb
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\BusinessLayer.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\EntityFramework.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\EntityFramework.SqlServer.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Helpers.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Mvc.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Razor.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Deployment.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Razor.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\BusinessLayer.pdb
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\BusinessLayer.dll.config
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\EntityFramework.xml
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\EntityFramework.SqlServer.xml
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Razor.xml
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.xml
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Deployment.xml
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Razor.xml
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Helpers.xml
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Mvc.xml
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.csprojResolveAssemblyReference.cache
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.csproj.CoreCompileInputs.cache
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.csproj.CopyComplete
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.dll
+D:\學習\MVC\整理\ch03\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.pdb
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\csc.exe
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\csc.exe.config
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\csc.rsp
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\csi.exe
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\csi.rsp
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\System.AppContext.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\System.IO.FileSystem.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\vbc.exe
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\vbc.exe.config
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\vbc.rsp
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\VBCSCompiler.exe
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\OnlineGame.Web.dll.config
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\OnlineGame.Web.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\OnlineGame.Web.pdb
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\BusinessLayer.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\EntityFramework.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\EntityFramework.SqlServer.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Helpers.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Mvc.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Razor.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Deployment.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Razor.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\BusinessLayer.pdb
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\BusinessLayer.dll.config
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\EntityFramework.xml
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\EntityFramework.SqlServer.xml
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Razor.xml
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.xml
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Deployment.xml
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Razor.xml
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Helpers.xml
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Mvc.xml
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.csprojResolveAssemblyReference.cache
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.csproj.CoreCompileInputs.cache
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.csproj.CopyComplete
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.dll
+D:\Anna\筆記\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.pdb
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\csc.exe
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\csc.exe.config
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\csc.rsp
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\csi.exe
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\csi.rsp
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\System.AppContext.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\System.IO.FileSystem.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\vbc.exe
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\vbc.exe.config
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\vbc.rsp
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\VBCSCompiler.exe
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\OnlineGame.Web.dll.config
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\OnlineGame.Web.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\OnlineGame.Web.pdb
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\BusinessLayer.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\EntityFramework.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\EntityFramework.SqlServer.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Helpers.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Mvc.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Razor.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Deployment.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Razor.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\BusinessLayer.pdb
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\BusinessLayer.dll.config
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\EntityFramework.xml
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\EntityFramework.SqlServer.xml
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Razor.xml
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.xml
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Deployment.xml
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Razor.xml
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Helpers.xml
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Mvc.xml
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.csprojResolveAssemblyReference.cache
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.csproj.CoreCompileInputs.cache
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.csproj.CopyComplete
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.dll
+D:\學習\MVC\整理\ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.pdb
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\csc.exe
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\csc.exe.config
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\csc.rsp
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\csi.exe
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\csi.rsp
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\System.AppContext.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\System.IO.FileSystem.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\vbc.exe
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\vbc.exe.config
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\vbc.rsp
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\VBCSCompiler.exe
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\OnlineGame.Web.dll.config
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\OnlineGame.Web.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\OnlineGame.Web.pdb
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\BusinessLayer.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\EntityFramework.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\EntityFramework.SqlServer.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Helpers.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Mvc.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Razor.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Deployment.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Razor.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\BusinessLayer.pdb
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\BusinessLayer.dll.config
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\EntityFramework.xml
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\EntityFramework.SqlServer.xml
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Razor.xml
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.xml
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Deployment.xml
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Webpages.Razor.xml
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Helpers.xml
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\bin\System.Web.Mvc.xml
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.csprojResolveAssemblyReference.cache
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.csproj.CoreCompileInputs.cache
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.csproj.CopyComplete
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.dll
+D:\學習\MVC\整理\2.ADO.NET連接資料庫更新資料\OnlineGame\OnlineGame.Web\obj\Debug\OnlineGame.Web.pdb
