@@ -1,16 +1,36 @@
 ﻿using System.Web.Mvc;
 namespace OnlineGame.Web.Controllers
 {
-    public class HomeController : Controller
+    [Authorize]
+    public class AccountController : Controller
     {
-        // GET: Home
-        //home/index
-        //[AcceptVerbs(HttpVerbs.Get)]
-        [HttpGet]
-        public ActionResult Index()
+        [Authorize (Users = "Tony")]
+        public ActionResult Delete()
         {
             return View();
         }
+
+        [AllowAnonymous]
+        public ActionResult Login(string returnUrl)
+        {
+            ViewBag.ReturnUrl = returnUrl;
+            return View();
+        }
+
+
+        [ChildActionOnly]
+        public ActionResult ForPartialView()
+        {
+            return PartialView();
+        }
+
+        [OutputCache(Duration = 30)]
+        public ActionResult OutputCache()
+        {
+            ViewBag.Time = DateTime.Now.ToLongTimeString();
+            return View();
+        }
+
         //home/list2
         [ActionName("List2")]
         public ActionResult Index2()

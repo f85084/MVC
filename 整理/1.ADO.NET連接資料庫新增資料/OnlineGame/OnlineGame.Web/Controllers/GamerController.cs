@@ -4,50 +4,55 @@ using System.Linq;
 using System.Web.Mvc;
 using BusinessLayer;
 using OnlineGame.Web.Data;
+using System.Data.Entity;
+using System.Threading.Tasks;
+using System.Net;
 using Gamer = OnlineGame.Web.Models.Gamer;
 
-namespace OnlineGame.Web.Controllers
+
+
+    namespace OnlineGame.Web.Controllers
 {
     public class GamerController : Controller
     {
-        // http://localhost/OnlineGame.Web/Gamer/Details
-        //public ActionResult Details()
+
+        //public ActionResult Details(int id = 0)
         //{
-        //    var gamer = new Gamer
+        //    var onlineGameContext = new OnlineGameContext();
+        //    Gamer gamer;
+        //    if (id == 0)
         //    {
-        //        Id = 1,
-        //        Name = "Name1",
-        //        Gender = "Male",
-        //        City = "City1"
-        //    };
+        //        gamer = new Gamer
+        //        {
+        //            Id = 0,
+        //            Name = "Name0",
+        //            Gender = "NULL",
+        //            City = "NULL"
+        //        };
+        //        // or you may throw exception here.
+        //    }
+        //    else
+        //    {
+        //        gamer = onlineGameContext.Gamers.Single(p => p.Id == id);
+        //        //Throws exception if can not find the single entity
+        //    }
         //    return View(gamer);
         //}
 
-
-        // http://localhost/OnlineGame.Web/Gamer/Details
-        // http://localhost/OnlineGame.Web/Gamer/Details/1
-        // http://localhost/OnlineGame.Web/Gamer/Details/2
-        // http://localhost/OnlineGame.Web/Gamer/Details/3
-        // http://localhost/OnlineGame.Web/Gamer/Details/4
-        public ActionResult Details(int id = 0)
+        public async Task<ActionResult> Details(int? id)
         {
             var onlineGameContext = new OnlineGameContext();
-            Gamer gamer;
-            if (id == 0)
+            //    Gamer gamer;
+            if (id == null)
             {
-                gamer = new Gamer
-                {
-                    Id = 0,
-                    Name = "Name0",
-                    Gender = "NULL",
-                    City = "NULL"
-                };
-                // or you may throw exception here.
+                //return BadRequest code.
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            else
+            Gamer gamer = await onlineGameContext.Gamers.FindAsync(id);
+            if (gamer == null)
             {
-                gamer = onlineGameContext.Gamers.Single(p => p.Id == id);
-                //Throws exception if can not find the single entity
+                //return HttpNotFound code.
+                return HttpNotFound();
             }
             return View(gamer);
         }
