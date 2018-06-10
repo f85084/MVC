@@ -28,12 +28,12 @@ namespace OnlineGame.Web.Controllers
         // GET: Gamer
         [HttpGet]
         [OutputCache(Duration = 10)]
-        //[OutputCache(Duration = 10, VaryByParam = "None", Location = OutputCacheLocation.ServerAndClient)]
-        //[OutputCache(Duration = 10, VaryByParam = "None", Location = OutputCacheLocation.Client)]
-        public async Task<ActionResult> Index2()
+          public async Task<ActionResult> Index2()
         {
             System.Threading.Thread.Sleep(3000);
+            //延遲3秒
             ViewBag.ServerTime = DateTime.Now.ToString(CultureInfo.InvariantCulture);
+            //伺服器的時間
             return View(await db.Gamer.ToListAsync());
         }
 

@@ -1,0 +1,6 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<h2>Home2 Index</h2>
+@Html.Action("GamersName", new { gamersName = new List<string> { "Name2", "Name1", "Name3" } })
+@{Html.RenderAction("GamersName", new { gamersName = new List<string> { "Name2", "Name1", "Name3" } });}
